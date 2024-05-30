@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="308.0" prefWidth="206.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aip.lab18.HelloController">
+    <TextArea fx:id="area" editable="false" prefHeight="280.0" prefWidth="206.0" />
+    <HBox>
+        <TextField fx:id="input1" maxWidth="1.7976931348623157E308" minWidth="-Infinity" onKeyPressed="#onEnter" prefHeight="26.0" />
+        <Button fx:id="button1" onAction="#onButton" text="Send" />
+    </HBox>
+</VBox>
